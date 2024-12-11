@@ -1,0 +1,14 @@
+.app-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+
+  }
+  
+  .main-layout {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+  

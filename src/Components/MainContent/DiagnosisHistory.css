@@ -1,0 +1,22 @@
+@import '../../App.css';
+
+.diagnosis-history {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 1rem;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    border-radius: 16px;
+    opacity: 1;
+}
+
+.diagnosis-history h2 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    
+}
+
+.diagnosis-history-header{
+    width: 95%;
+
+}

@@ -1,0 +1,50 @@
+.blood-pressure-chart {
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, sans-serif;
+    background: #F4F0FE 0% 0% no-repeat padding-box;
+    border-radius: 12px;
+    opacity: 1;
+    padding: 1.5rem;
+    width: 90%;
+    height: 300px;
+    margin-top: 1rem;
+}
+
+.chart-container {
+    margin-top: 20px;
+}
+
+
+.blood-pressure-info {
+    padding-top: 1rem;
+    margin-top: 20px;
+
+}
+
+.blood-pressure-info>div {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+    line-height: 1.6;
+}
+
+.blood-pressure-info span {
+    margin-bottom: 5px;
+}
+
+.systolic span:first-child {
+    color: #8884d8;
+}
+
+.diastolic span:first-child {
+    color: #82ca9d;
+}
+
+.systolic {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #D3D0DC;
+}
+.diastolic{
+    padding-top: 1rem;
+}

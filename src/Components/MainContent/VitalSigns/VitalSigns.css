@@ -1,0 +1,15 @@
+.vital-signs-container{
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.vital-signs-row{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+.vital-signs{
+    width: 100%;
+}

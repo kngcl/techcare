@@ -1,0 +1,19 @@
+@import '../../App.css';
+
+.sidebar {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 260px;
+    /* UI Properties */
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 16px;
+    opacity: 1;
+}
+
+.sidebarprofile {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
